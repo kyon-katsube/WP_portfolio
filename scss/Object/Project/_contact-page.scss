@@ -1,0 +1,40 @@
+//お問い合わせフォーム(固定ページ)
+
+.p-contact-page {
+    padding: 80px 0;
+    &__title {
+        margin-bottom: 50px;
+        padding-top:100px;
+        text-align: center;
+        font-size: 40px;
+        @media screen and (max-width: 767px) {
+            padding-top:50px;
+            font-size: 26px;
+        }
+    }//title
+    &__form {
+        // display:block;
+        align-items: center;
+        margin-top:50px;
+        p {
+            margin-top:10px;
+        }
+        p>input ,textarea{
+            background-color: #fff;
+            border-radius: 5px;
+            margin-top:5px;
+            margin-bottom:10px;
+            line-height:1.5rem;
+            width:100%;
+            text-indent: 1rem;
+            padding:0.3rem;
+        }
+    }
+}  //p-contact-page
+
+//戻るボタンと送信ボタンを横並びにする用
+.p-contact-page__form__button__wrapper{
+    margin-top:30px;
+    display:flex;
+    justify-content: center;
+}

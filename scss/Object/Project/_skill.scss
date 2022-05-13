@@ -1,0 +1,64 @@
+.p-skill__list {
+    margin-bottom: -50px; //子要素のitemにmargin-bottomを設定しているので親のmargin-bottomで調整
+    @media screen and (max-width: 767px) {
+        margin-bottom: 0;
+    }
+    &__wrapper {
+        padding:0 30px 30px 30px;
+        &__title { //h3
+            font-size:24px;
+            font-weight:bold;
+            border-bottom:1px solid lightgray;
+            padding-bottom:15px;
+            text-align:center;
+            @media screen and (max-width: 767px) {
+                font-size:18px;
+                padding-bottom:10px;
+            }
+        }
+        &__contents { 
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding:40px 40px 0 40px;
+            @media screen and (max-width: 767px) {
+                display: block;
+                padding:20px 20px 0 10px;
+            }
+            &__intro {
+                padding-bottom :30px;
+                a {
+                    cursor:pointer;
+                }
+            }
+            &__item {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                width: 48%;
+                margin-bottom: 40px;
+                @media screen and (max-width: 767px) {
+                    width: 100%;
+                    margin-bottom: 25px;
+                }
+                &__img {
+                    width: 60px;
+                    height: auto;
+                    margin-right: 20px;
+                }
+                &__body {
+                    flex: 1;
+                    &__name {
+                        margin-bottom: 3px;
+                    }
+                }
+                &:last-child { 
+                    @media screen and (max-width: 767px) {
+                        margin-bottom: 0;
+                    }
+                }
+            }  //item         
+        } //contents
+    } //wrapper
+} //list
+

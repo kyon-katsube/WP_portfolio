@@ -1,0 +1,67 @@
+.p-article {
+    padding: 80px 0;
+    &__title {
+        margin-bottom: 50px;
+        padding-top:100px;
+        text-align: center;
+        font-size: 40px;
+        @media screen and (max-width: 767px) {
+            padding-top:50px;
+            font-size: 26px;
+        }
+        span {
+            font-weight: normal;
+        }
+    }//title
+    &__workname {  //h2
+        margin-bottom: 10px;
+        text-align: center;
+        font-size:30px;
+        @media screen and (max-width: 767px) {
+            font-size:20px;
+        }
+    }
+    &__workskill {  //h3
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight:normal;
+        & ul>li>a {
+            pointer-events:none;
+            color:#333;
+        }
+        
+    }
+
+    &__img {
+        margin-bottom: 20px;
+        border-style:none;
+    }
+  
+    &__body {
+        max-width: 720px;
+        margin: 80px auto;
+        @media screen and (max-width: 767px) {
+            margin:40px auto;
+        }
+        &__info-title {
+            font-size: 15px;
+        }
+        & img {
+            margin-bottom: 30px;
+        }
+        & p {
+            margin-bottom: 30px;
+        }
+        &__list{
+            margin-left:1rem;
+            list-style-type: disc;
+        }
+    }
+  
+    &__home-link {
+        text-align: center;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

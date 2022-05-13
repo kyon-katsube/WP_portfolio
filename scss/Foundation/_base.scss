@@ -1,0 +1,43 @@
+body {
+    font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: .8px;
+    color: #333;
+    background-color: rgb(176, 243, 248);
+    @media screen and (max-width: 767px) {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+}
+  
+a {
+    transition: opacity .3s;
+    text-decoration: none;
+    color: #1ca9e3;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+    border-style: none;
+}
+  
+ul, li {
+    list-style: none;
+}
+  
+.pc-only {
+    display: block;
+    @media screen and (max-width: 767px) {
+      display: none;
+   }
+}
+  
+.sp-only {
+  display: none;
+  @media screen and (max-width: 767px) {
+    display: block;
+  }
+}

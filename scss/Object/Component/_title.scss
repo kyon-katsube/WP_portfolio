@@ -1,0 +1,14 @@
+.c-title {
+    font-size: 34px;
+    font-weight: normal;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 40px;
+    letter-spacing: .05em;
+    color: #333;
+    text-align:center;
+    @media screen and (max-width: 767px) {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+}

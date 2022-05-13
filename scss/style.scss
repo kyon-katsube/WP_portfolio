@@ -1,0 +1,42 @@
+/*
+Theme Name: Corporate_site_2_WED
+Description: portofolio Kyon
+Version: 1.0.0
+Theme URI:https://github.com/kyon-katsube/origin.git 
+Author: Kyon-Katsube
+Author URI: https://wp.yat-net.net.com
+Tags: right-sidebar, blog
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: Corporate_code2
+*/
+
+
+//Foundation
+@use "Foundation/base";
+
+//Layout
+@use "Layout/l-header";
+// @use "Layout/l-main";
+@use "Layout/l-footer";
+
+//Object
+/* Component--------------------- */
+@use "Object/Component/space";
+@use "Object/Component/copyright";
+@use "Object/Component/title";
+@use "Object/Component/button";
+
+/* Project------------------------ */
+@use "Object/Project/header";
+@use "Object/Project/footer";
+@use "Object/Project/split";
+@use "Object/Project/works";
+@use "Object/Project/skill";
+@use "Object/Project/contact";
+@use "Object/Project/page-top";
+@use "Object/Project/article";
+@use "Object/Project/about";
+@use "Object/Project/contact-page";
+
+/* Utility----------------------- */

@@ -1,0 +1,38 @@
+.p-contact__text {
+    padding-top:20px;
+    margin: 30px;
+    text-align:center;
+    @media screen and (max-width: 767px) {
+        margin: 20px;
+    }
+}
+
+* {
+  -webkit-appearance: none;
+}
+
+.p-contact__form {
+    margin: 30px;
+    padding-bottom:20px;
+    @media screen and (max-width: 767px) {
+        margin: 20px;
+    }
+    &__button{
+        color:#333;
+        background:linear-gradient(to bottom, #FFF, #F2F4F4);
+        width:200px;
+        height:50px;
+        margin-bottom:30px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin:0 auto;
+        &:hover {
+            cursor:pointer;
+        }
+        @media screen and (max-width: 767px) {
+            width:160px;
+            height:40px;
+        }
+    }
+}

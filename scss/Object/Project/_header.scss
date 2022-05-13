@@ -1,0 +1,45 @@
+.p-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    @media screen and (max-width: 767px) {
+        padding: 20px;
+    }
+    &__logo {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.2;
+        margin-right: 20px;
+        letter-spacing: .05em;
+        @media screen and (max-width: 767px) {
+            font-size: 16px;
+        }
+        & a {
+            color: #333;
+        }
+    } //logo
+    &__nav__list {
+        display: flex;
+        justify-content: space-between;
+        &__item:not(:last-child) {
+            margin-right: 20px;
+            @media screen and (max-width: 767px) {
+                margin-right: 10px;
+            }
+        }
+        &__item a {
+            font-size: 13px;
+            font-weight: bold;
+            padding: 5px 0;
+            letter-spacing: .05em;
+            color: #333;
+            @media screen and (max-width: 767px) {
+                font-size: 11px;
+            }
+        }
+        &__item a:hover {
+            opacity: .8;
+        }
+    } //nav__list
+  } //p-header

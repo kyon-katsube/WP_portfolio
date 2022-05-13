@@ -1,0 +1,43 @@
+.p-split {     /*テキスト左・画像右*/
+        display: flex;  //元の
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    @media screen and (max-width: 767px) {
+        flex-direction: column-reverse;
+    }
+    &__body {
+        width: 50%;
+        padding-right: 3%;
+        padding-left: 10%;
+        @media screen and (max-width: 767px) {
+            width: 100%;
+            padding-right: 3%;
+            padding-left: 8%;
+        }
+        &__title {
+            font-size: 42px;
+            font-weight: bold;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            letter-spacing: .05em;
+            @media screen and (max-width: 767px) {
+                font-size: 32px;
+                margin-top:20px;
+            }
+        }
+    }
+    &__img {
+        width: 50%;
+        height: 95vh;
+        background-image: url(../img/webimage.jpeg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        @media screen and (max-width: 767px) {
+            width: 100%;
+            height: 67vh;
+            margin-bottom: 20px;
+        }
+    }
+}
