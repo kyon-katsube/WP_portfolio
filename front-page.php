@@ -27,7 +27,7 @@
               <?php if($myposts): ?>
               <?php foreach($myposts as $post) : setup_postdata($post); ?>
                 <a class="p-works__list__item" href="<?php the_permalink();?>"><!--固定ページのスラッグ（パーマリンク）を記入する-->
-                  <div class="p-works__list__item__img"><img src=<?php the_post_thumbnail('front-page');?></div>
+                  <div class="p-works__list__item__img"><?php the_post_thumbnail();?></div>
                   <p class="p-works__list__item__name"><?php the_title();?></p>
                   <p class="p-works__list__item__info">
                     <?php					
@@ -100,7 +100,7 @@
             <div class="p-skill__list__wrapper">
               <h3 class="p-skill__list__wrapper__title">ディレクション</h3>
               <div class="p-skill__list__wrapper__contents">
-                <p class="p-skill__list__wrapper__contents__intro">WEB制作会社にて半年間ディレクター業務を経験。お客様との折衝・スケジュール管理・SEO対策などの基本的な業務を学びました。</p>
+                <p class="p-skill__list__wrapper__contents__intro">WEB制作会社にて半年間ディレクター業務を経験。お客様との折衝・スケジュール管理・SEO対策などのディレクション業務に従事しました。</p>
                 </p>
                   <div class="p-skill__list__wrapper__contents__item">
                     <p class="p-skill__list__wrapper__contents__item__img"><img src="<?php echo get_template_directory_uri();?>/img/meeting.png" alt="営業"></p>
@@ -134,13 +134,13 @@
             <div class="p-skill__list__wrapper">
               <h3 class="p-skill__list__wrapper__title">デザイン※勉強中</h3>
               <div class="p-skill__list__wrapper__contents">
-                <p class="p-skill__list__wrapper__contents__intro">オンラインスクールの<a href="https://raise-tech.net/courses/design-course" target="_blank">デザインコース</a>を今春から受講中。夏までにサイトデザインを作れるレベルを目標に猛勉強中です。</p>
+                <p class="p-skill__list__wrapper__contents__intro">オンラインスクールの<a href="https://raise-tech.net/courses/design-course" target="_blank">デザインコース</a>を今春から受講中。９月末までにサイトデザインを作れるレベルを目標に猛勉強中です。</p>
                   <div class="p-skill__list__wrapper__contents__item">
                     <p class="p-skill__list__wrapper__contents__item__img"><img src="<?php echo get_template_directory_uri();?>/img/psdai.png" alt="photoshop/illustrator"></p>
                     <div class="p-skill__list__wrapper__contents__item__body">
                       <h4 class="p-skill__list__wrapper__contents__item__body__name">PhotoShop/Illustrator</h4>
                       <p class="p-skill__list__wrapper__contents__item__body__text">
-                        基本的な操作は可能です。（画像トリミングなど）今後バナー作成やデザインカンプの作成を学んでいきます。
+                        基本的な操作（画像トリミングなど）は可能です。今後バナー作成やデザインカンプの作成を学んでいきます。
                       </p>
                     </div>
                   </div>

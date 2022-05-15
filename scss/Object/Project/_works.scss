@@ -21,9 +21,7 @@
     &__item:hover {
         opacity: .9;
     }
-    &__item:nth-of-type(3n) {
-        margin-right: 0;
-    }
+
     &__item__img { //hoverしたらふわっとさせる
         box-shadow: none;
         transition: .3s;

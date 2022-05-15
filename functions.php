@@ -18,7 +18,3 @@ add_action('wp_enqueue_scripts', 'my_enqueue_scripts');
 
 //テーマをサポート（使えるように）する
 add_theme_support( 'post-thumbnails' ); //アイキャッチ画の取り扱い許可 
-
-
-//frontpageに表示させるworksのアイキャッチ画像の大きさ設定
-add_image_size('front-page',400,300,true);
