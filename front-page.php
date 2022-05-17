@@ -9,7 +9,7 @@
           <p class="p-split--body__text">
             サイトをご覧頂きありがとうございます。<br>
             コーディングやWordPressの構築はお任せください。<br>
-            ご要望に真摯に向き合ったWEBサイト作成を目指しています。
+            ご要望に真摯に向き合ったWebサイト作成を目指しています。
           </p>
         </div>
         <div class="p-split__img"></div> <!--右側のメイン画像-->
@@ -73,16 +73,16 @@
                       <div class="p-skill__list__wrapper__contents__item__body">
                         <h4 class="p-skill__list__wrapper__contents__item__body__name">WordPress</h4>
                         <p class="p-skill__list__wrapper__contents__item__body__text">
-                          子テーマからの構築はもちろん、オリジナルテーマの構築も可能です。プラグインを使用した基本的なカスタマイズや簡単なカスタム投稿などの設置も行います。
+                          ブロックエディタや子テーマからの構築はもちろん、オリジナルテーマの構築を得意としています。プラグインを使用した基本的なカスタマイズや簡単なカスタム投稿などの設置も行います。
                         </p>
                       </div>
                     </div>
                     <div class="p-skill__list__wrapper__contents__item">
                       <p class="p-skill__list__wrapper__contents__item__img"><img src="<?php echo get_template_directory_uri();?>/img/js.png" alt="javascript/jquery"></p>
                       <div class="p-skill__list__wrapper__contents__item__body">
-                        <h4 class="p-skill__list__wrapper__contents__item__body__name">javascript(jQuery)</h4>
+                        <h4 class="p-skill__list__wrapper__contents__item__body__name">JavaScript(jQuery)</h4>
                         <p class="p-skill__list__wrapper__contents__item__body__text">
-                          ハンバーガーメニュー・クリックイベントなど動きのあるサイトの実装を行います。
+                          ハンバーガーメニュー・クリックイベント・sliderなど、動きのあるサイトの実装が可能です。
                         </p>
                       </div>
                     </div>
@@ -91,7 +91,7 @@
                       <div class="p-skill__list__wrapper__contents__item__body">
                         <h4 class="p-skill__list__wrapper__contents__item__body__name">ツール</h4>
                         <p class="p-skill__list__wrapper__contents__item__body__text">
-                          コードエディターはVsCodeを使用。また、GitHubを使ったソースコードの連携が可能です。
+                          コードエディターはVsCode、WordPress実装はLocalを使用。また、GitHubを使ったソースコードの連携が可能です。
                         </p>
                       </div>
                     </div>
@@ -100,14 +100,15 @@
             <div class="p-skill__list__wrapper">
               <h3 class="p-skill__list__wrapper__title">ディレクション</h3>
               <div class="p-skill__list__wrapper__contents">
-                <p class="p-skill__list__wrapper__contents__intro">WEB制作会社にて半年間ディレクター業務を経験。お客様との折衝・スケジュール管理・SEO対策などのディレクション業務に従事しました。</p>
+                <p class="p-skill__list__wrapper__contents__intro">Web制作会社にて半年間ディレクター業務を経験。お客様との折衝・スケジュール管理・SEO対策などのディレクション業務に従事しました。</p>
                 </p>
                   <div class="p-skill__list__wrapper__contents__item">
                     <p class="p-skill__list__wrapper__contents__item__img"><img src="<?php echo get_template_directory_uri();?>/img/meeting.png" alt="営業"></p>
                     <div class="p-skill__list__wrapper__contents__item__body">
-                      <h4 class="p-skill__list__wrapper__contents__item__body__name">営業・ワイヤーフレーム作成</h4>
+                      <h4 class="p-skill__list__wrapper__contents__item__body__name">営業・スケジュール管理</h4>
                       <p class="p-skill__list__wrapper__contents__item__body__text">
-                        お客様から丁寧にヒアリングし、ご要望を解決できるようなサイト作りをご提案いたします。Cacooにてワイヤーフレーム作成・Backlogにてスケジュール管理を行います。
+                        お客様から丁寧にヒアリングし、ご要望を解決できるようなサイト作りをご提案いたします。Cacooにてサイトマップ・ワイヤーフレーム作成、Backlogにてスケジュール管理を行います。<br>
+                        お客様・社内とコンタクトを密にし、納期通りのスケジュールで必ず遂行できるよう配慮します。
                       </p>
                     </div>
                   </div>
@@ -116,7 +117,7 @@
                     <div class="p-skill__list__wrapper__contents__item__body">
                       <h4 class="p-skill__list__wrapper__contents__item__body__name">ライティング</h4>
                       <p class="p-skill__list__wrapper__contents__item__body__text">
-                        お客様からの原稿をリライトしたり、SEO対策を意識した検索順位を上げるライティング・メタディスクリプションの作成などを行います。
+                        お客様からの原稿のリライトや、検索順位を上げるためのキーワードを含めたメタディスクリプションの作成、ブログやコラム記事の作成代行などを行います。約15年間紙パンフレットの作成に従事していたので、校正も得意です。
                       </p>
                     </div>
                   </div>
@@ -168,8 +169,12 @@
             <p class="p-about__body__text">
               島根県出雲市在住。夫と3歳の子供の3人家族。<br>
               旅行会社で長年国内旅行の商品企画に携わり全国を駆け巡る日々を送っていましたが、コロナ禍の煽りを受け退職。<br>
-              セカンドキャリアとしてかねてから憧れていたWEBデザイナーへの転身を決意し、昨年秋から勉強に励んでいます。<br>
-              好きな食べ物はシュークリーム、好きな言葉は「人事を尽くして天命を待つ」。
+              セカンドキャリアとしてかねてから憧れていたWebデザイナーへの転身を決意し、昨年秋から勉強に励んでいます。<br>
+              好きな言葉は「人事を尽くして天命を待つ」。<br>
+              <br>
+              無形のモノを自分で形にすることが好きで、地道なコーディング作業も形になる喜びがあるから苦になりません。<br>
+              長年制作に携わってきた旅行パンフレットと同様、誰が見ても「見やすく・わかりやすい」Webデザイン・コーディングを目指しています。<br>
+              また、これまでの社会人経験も生かし、ディレクションもこなせるオールラウンダーになることが最終目標です。
             </p>
           </div>
         </div>
