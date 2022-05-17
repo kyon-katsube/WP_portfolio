@@ -133,7 +133,7 @@
               </div>            
             </div>
             <div class="p-skill__list__wrapper">
-              <h3 class="p-skill__list__wrapper__title">デザイン※勉強中</h3>
+              <h3 class="p-skill__list__wrapper__title">デザイン ※勉強中</h3>
               <div class="p-skill__list__wrapper__contents">
                 <p class="p-skill__list__wrapper__contents__intro">オンラインスクールの<a href="https://raise-tech.net/courses/design-course" target="_blank">デザインコース</a>を今春から受講中。９月末までにサイトデザインを作れるレベルを目標に猛勉強中です。</p>
                   <div class="p-skill__list__wrapper__contents__item">
