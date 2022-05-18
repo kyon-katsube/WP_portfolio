@@ -60,7 +60,7 @@
           <ul class="p-header__nav__list">
             <li class="p-header__nav__list__item"><a href="<?php echo esc_url(home_url('/'));?>#works">WORKS</a></li>
             <li class="p-header__nav__list__item"><a href="<?php echo esc_url(home_url('/'));?>#skill">SKILL</a></li>
-            <li class="p-header__nav__list__item"><a href="<?php echo esc_url(home_url('/'));?>#about">ABOUT ME</a></li>
+            <li class="p-header__nav__list__item"><a href="<?php echo esc_url(home_url('/'));?>#about">ABOUT</a></li>
             <li class="p-header__nav__list__item"><a href="<?php echo home_url('/contact'); ?>">CONTACT</a></li>
           </ul>
         </nav>

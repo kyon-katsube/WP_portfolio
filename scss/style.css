@@ -137,7 +137,7 @@ ul, li {
   font-size: 20px;
   font-weight: bold;
   line-height: 1.2;
-  margin-right: 20px;
+  margin-right: 1%;
   letter-spacing: 0.05em;
 }
 @media screen and (max-width: 767px) {
@@ -355,7 +355,6 @@ ul, li {
 .p-contact__text {
   padding-top: 20px;
   margin: 30px;
-  text-align: center;
 }
 @media screen and (max-width: 767px) {
   .p-contact__text {
@@ -406,7 +405,6 @@ ul, li {
 }
 
 .p-page-top .material-icons-outlined {
-  vertical-align: bottom;
   color: #333;
 }
 

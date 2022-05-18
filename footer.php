@@ -1,6 +1,6 @@
 <!--ページトップへ戻るタブ-->
     <p id="js-page-top" class="p-page-top" >
-          <a href="#"><span class="material-icons-outlined">expand_less</span></a><!--上矢印にするためクラス名は変えない-->
+          <a href="#"><span class="material-icons-outlined">&#8743;</span></a><!--上矢印にするためクラス名は変えない-->
     </p>
 </main>
 
