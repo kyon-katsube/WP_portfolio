@@ -1,22 +1,22 @@
 .p-split {     /*テキスト左・画像右*/
-        display: flex;  //元の
-        align-items: center;
-        flex-wrap: wrap;
-        justify-content: space-between;
+    display: flex;  //元の
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     @media screen and (max-width: 767px) {
         flex-direction: column-reverse;
     }
     &__body {
         width: 50%;
-        padding-right: 3%;
-        padding-left: 10%;
+        padding-right: 5%;
+        padding-left: 5%;
         @media screen and (max-width: 767px) {
             width: 100%;
-            padding-right: 3%;
-            padding-left: 8%;
+            padding-right: 10%;
+            padding-left: 10%;
         }
         &__title {
-            font-size: 42px;
+            font-size: calc(16px + 3vw );
             font-weight: bold;
             line-height: 1.2;
             margin-bottom: 20px;
@@ -24,6 +24,12 @@
             @media screen and (max-width: 767px) {
                 font-size: 32px;
                 margin-top:20px;
+            }
+        }
+        &__text {
+            font-size:calc(16px + 0.5vw);
+            @media screen and (max-width: 767px) {
+                font-size:14px;
             }
         }
     }
@@ -39,5 +45,5 @@
             height: 67vh;
             margin-bottom: 20px;
         }
-    }
+    }//img
 }

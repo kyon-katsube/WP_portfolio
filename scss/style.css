@@ -190,18 +190,18 @@ ul, li {
 }
 .p-split__body {
   width: 50%;
-  padding-right: 3%;
-  padding-left: 10%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 @media screen and (max-width: 767px) {
   .p-split__body {
     width: 100%;
-    padding-right: 3%;
-    padding-left: 8%;
+    padding-right: 10%;
+    padding-left: 10%;
   }
 }
 .p-split__body__title {
-  font-size: 42px;
+  font-size: calc(16px + 3vw);
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 20px;
@@ -211,6 +211,14 @@ ul, li {
   .p-split__body__title {
     font-size: 32px;
     margin-top: 20px;
+  }
+}
+.p-split__body__text {
+  font-size: calc(16px + 0.5vw);
+}
+@media screen and (max-width: 767px) {
+  .p-split__body__text {
+    font-size: 14px;
   }
 }
 .p-split__img {
@@ -265,19 +273,26 @@ ul, li {
   transform: translateY(-4px);
 }
 .p-works__list__item__name {
-  font-size: 12px;
+  font-size: calc(12px + 0.25rem);
   font-weight: bold;
   margin-top: 8px;
   margin-left: 2rem;
 }
 @media screen and (max-width: 767px) {
   .p-works__list__item__name {
-    font-size: 10px;
+    font-size: 11px;
   }
 }
 .p-works__list__item__info {
-  font-size: 10px;
+  font-size: calc(10px + 0.25rem);
   margin-left: 2rem;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 767px) {
+  .p-works__list__item__info {
+    font-size: 10px;
+  }
 }
 
 .p-skill__list {
@@ -290,6 +305,11 @@ ul, li {
 }
 .p-skill__list__wrapper {
   padding: 0 30px 30px 30px;
+}
+@media screen and (max-width: 767px) {
+  .p-skill__list__wrapper {
+    padding: 0 10px 30px 10px;
+  }
 }
 .p-skill__list__wrapper__title {
   font-size: 24px;
@@ -313,7 +333,7 @@ ul, li {
 @media screen and (max-width: 767px) {
   .p-skill__list__wrapper__contents {
     display: block;
-    padding: 20px 20px 0 10px;
+    padding: 20px 10px 0 10px;
   }
 }
 .p-skill__list__wrapper__contents__intro {
@@ -490,18 +510,25 @@ ul, li {
   }
 }
 .p-about__body__img {
-  width: 50%;
-  height: 50vh;
+  width: 500px;
+  height: 500px;
+  padding-left: 3%;
   background-image: url(../img/meandson.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   border-radius: 50%;
 }
+@media screen and (max-width: 1100px) {
+  .p-about__body__img {
+    width: 350px;
+    height: 350px;
+  }
+}
 @media screen and (max-width: 767px) {
   .p-about__body__img {
-    width: 40vw;
-    height: 20vh;
+    width: 200px;
+    height: 200px;
     margin-bottom: 20px;
     background-image: url(../img/meandson.jpg);
   }
@@ -510,7 +537,7 @@ ul, li {
   display: block;
   width: 50%;
   padding-right: 3%;
-  padding-left: 10%;
+  padding-left: 7%;
 }
 @media screen and (max-width: 767px) {
   .p-about__body__text {

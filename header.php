@@ -38,8 +38,8 @@
       ?>
   </title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="http://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link href="http://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
   <link rel="shortcut icon" href="<?php echo esc_url(get_template_directory_uri()); ?>/img/favicon.png" />
   <link rel=”canonical” href=”サーバーアップしたらURL入れる” />
   <?php wp_head();?>

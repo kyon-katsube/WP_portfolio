@@ -61,7 +61,7 @@
                     <div class="p-skill__list__wrapper__contents__item">
                       <p class="p-skill__list__wrapper__contents__item__img"><img src="<?php echo get_template_directory_uri();?>/img/htmlcss.png" alt="HTML&CSS"></p>
                       <div class="p-skill__list__wrapper__contents__item__body">
-                        <h4 class="p-skill__list__wrapper__contents__item__body__name">HTML5/CSS3</h4>
+                        <h4 class="p-skill__list__wrapper__contents__item__body__name">HTML(Living Standard/CSS3</h4>
                         <p class="p-skill__list__wrapper__contents__item__body__text">
                           CSSはSass(SCSS記法)を利用し効率的かつ正確に、さらにCSS設計（FLOCSS)も用いて「予測しやすい」「再利用しやすい」「保守しやすい」「管理しやすい」記述を行います。<br>
                           また、CSSを利用した簡単なアニメーションの実装も可能です。
@@ -91,7 +91,7 @@
                       <div class="p-skill__list__wrapper__contents__item__body">
                         <h4 class="p-skill__list__wrapper__contents__item__body__name">ツール</h4>
                         <p class="p-skill__list__wrapper__contents__item__body__text">
-                          コードエディターはVsCode、WordPress実装はLocalを使用。また、GitHubを使ったソースコードの連携が可能です。
+                          コードエディターはVS Code、WordPress実装はLocalを使用。また、GitHubを使ったソースコードの連携が可能です。
                         </p>
                       </div>
                     </div>

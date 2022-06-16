@@ -32,16 +32,21 @@
     }
    
     &__item__name {
-        font-size: 12px;
+        font-size: calc(12px + 0.25rem );
         font-weight: bold;
         margin-top: 8px;
         margin-left:2rem;
         @media screen and (max-width: 767px) {
-            font-size: 10px;
+            font-size: 11px;
         }
     }
     &__item__info {
-        font-size: 10px;
+        font-size: calc(10px + 0.25rem );
         margin-left:2rem;
+        word-wrap:break-word;
+        box-sizing: border-box;
+        @media screen and (max-width: 767px) {
+            font-size: 10px;
+        }
     }
 }
